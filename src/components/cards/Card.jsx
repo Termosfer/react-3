@@ -12,7 +12,7 @@ class Card extends Component {
               {title.length > 30 ? title.slice(0, 30) + "..." : title}
             </h5>
             <p className="card-text">{director}</p>
-            <h1 href="#" className="">
+            <h1 className="">
               {year}
             </h1>
           </div>
