@@ -6,7 +6,7 @@
 .header {
   width: 100%;
   height: 100px;
-  background-color: burlywood;
+  background-color: gray;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,12 +25,14 @@ a {
   border: 1px solid black;
   padding: 5px 10px;
   border-radius: 10px;
+  user-select: none;
 }
 
 .active {
   text-decoration: underline !important;
   color: #fff !important;
   border: 1px solid #fff;
+  user-select: none;
 }
 
 .fa-regular{

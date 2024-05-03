@@ -7,7 +7,7 @@ class Header extends Component {
   };
   statehandler = () => {
     this.setState({
-      view: !this.state.view,
+      view: !this.state.view
     });
     this.state.view ? document.body.className = "bg-secondary" : document.body.className = "bg-light"
     this.state.view ? document.querySelector("body > *").className = "text-light" : document.querySelector("body > *").className = "text-dark"
